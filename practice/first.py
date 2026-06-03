@@ -9,3 +9,4 @@ print("data type:", type(new))
 print("name is :", name)
 print("data type:", type(name))
 print(aa)
+#aa, hi, num are variables
