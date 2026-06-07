@@ -1,4 +1,4 @@
-len = float(input("ENter length: "))
+len = float(input("Enter length: "))
 brea = float(input("Enter breadth: "))
 ar = len * brea 
 per = 2* (len + brea)

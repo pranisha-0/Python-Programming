@@ -1,2 +1,5 @@
 #4, 5, 8
 title, theory, all code, output, discussion
+cd .. -> to get ut of the file
+cd .\<file name>\ to get in the file
+python <file name> to run the code
