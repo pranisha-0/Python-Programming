@@ -18,4 +18,18 @@ for i in range (6, 0, -1):
 
 #right triangle
 for i in range(0, 6):
-    print(" "*(6-i) + "*"*i)
+    print(" "*(6-i)+"*"*i)
+
+#pyramid
+for i in range(0, 5):
+    print(" "*(5-i)+"* "*(i))
+
+#upside down pyramid
+for i in range(5, 0, -1):
+    print(" "*(5-i)+"* "*(i))
+
+#diamond
+for i in range(5, 0, -1):
+    print(" "*(5-i)+"* "*(i))
+for i in range(0, 5):
+    print(" "*(5-i)+"* "*(i))
