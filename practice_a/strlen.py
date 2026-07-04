@@ -11,4 +11,9 @@ print(a.rstrip("."))
 print(a.replace("p", "l")) #p lai l le replace garxa
 
 b = "pranisha"
-print(b.count("a"))
+print(b.count("a")) #b ma, "a" kati ota xa herna
+print(b.isalpha())
+ 
+c = "123Abc"
+print(c.isalnum())
+print(c.isalpha())
