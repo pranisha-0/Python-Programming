@@ -1,0 +1,14 @@
+a = f.read()
+print(a) gives us the entire file read at once
+
+b = f.readlines()
+print(b) gives us the entire file but as a list
+if element or word wise print garna parexa vane we use for loop to print
+
+for line in f:
+    print(line) gives us the file, read line by line
+    print(line.strip()) gives us the file read line by line BUT it removes the unwanted spaces 
+
+c = f.read(50)
+print(c) reads the first 50 characters of the file
+ 

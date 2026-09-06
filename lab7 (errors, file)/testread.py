@@ -11,3 +11,7 @@ print("FILE CREATED.")
 with open("output.txt", "r") as f:
     c = f.read()
     print(c)
+
+import os
+os.rename("output.txt", "what_is_this.txt")
+os.remove("nonsense.txt")
