@@ -1,6 +1,6 @@
-n = int(input("NUm of stds: "))
+
 with open("students.txt", "w") as f:
-    for i in range(1,n+1):
+    for i in range(1,6):
         name = input(f"ENtr name of std {i}: ")
         f.write(name + "\n")
 f.close()
@@ -12,3 +12,4 @@ with open("students.txt", "r") as f:
     for std in stds:
         print(std.strip())
     print("\nTotal stds: ", len(stds))
+
