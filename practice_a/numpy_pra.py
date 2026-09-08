@@ -37,4 +37,13 @@ p = np.array([[1, 2, 3], [4, 5, 6]])
 q = np.array([[6, 8, 3], [9, 0, 7], [4, 3, 7]])
 t = np.matmul(p, q)#np.dot(p, q)
 print(t)
-print(t.shape)
+print(t.shape) #t ko shaape pint garxa
+
+#concatenation
+#1D
+a1 = np.array([1, 2, 3])
+a2 = np.array([8, 4, 5])
+c1 = np.concatenate((a1, a2), axis=0)
+print(c1)
+k = np.vstack((a1, a2))
+print(k)
