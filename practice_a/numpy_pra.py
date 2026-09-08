@@ -31,3 +31,9 @@ print(a)
 
 b[1, 1] = 50
 print(b)
+
+print("\n")
+p = np.array([[1, 2, 3], [4, 5, 6]])
+q = np.array([[6, 8, 3], [9, 0, 7], [4, 3, 7]])
+t = np.matmul(p, q)#np.dot(p, q)
+print(t)
