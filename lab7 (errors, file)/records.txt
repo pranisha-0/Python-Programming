@@ -1,0 +1,4 @@
+puja, 99.0 
+pratiksha, 98.0 
+pranesh, 100.0 
+pranisha, 50.0 
